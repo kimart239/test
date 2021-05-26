@@ -37,10 +37,10 @@ public class result {
 
         if (z==1) System.out.println("Результат=" + r);// для арабских
         if (z==2) {
-            if (r > 0) System.out.println("Результат=" + rom10[r / 10] + rom1[r - (r / 10) * 10]);//римские >0
+            if (r > 0) System.out.println("Результат=" + rom10[r / 10] + rom1[r%10]);//римские >0
             if (r < 0) {
                 r = -r;
-                System.out.println("Результат=-" + rom10[r / 10] + rom1[r - (r / 10) * 10]);
+                System.out.println("Результат=-" + rom10[r / 10] + rom1[r% 10]);
             }
             if (r == 0) System.out.println("Результат=0");
         }

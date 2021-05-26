@@ -2,7 +2,6 @@ package com.company;
 
 public class romeToarab {
      public static int rta(String ra){
-         //System.out.println(ra);
         if (ra.equals("0")) return 0;
         if (ra.equals("I")) return 1;
         if (ra.equals("II")) return 2;

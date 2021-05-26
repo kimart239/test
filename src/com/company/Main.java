@@ -22,7 +22,10 @@ public class Main {
             System.out.println(e.getMessage());
             return;
         }
+        v[0]=v[0].trim();// удаляем пробелы
+        v[1]=v[1].trim();// удаляем пробелы
         // проверка что введены цифры
+
         if (v[0].matches("\\d+")&& v[1].matches("\\d+")) {
             a=Integer.parseInt(v[0]);//преобразование String в Int
             b=Integer.parseInt(v[1]);
@@ -33,7 +36,7 @@ public class Main {
                     return;
                 }
                 else
-                    throw new Exception("не верный диапазон значений");
+                    throw new Exception("не верный диапазон значений 111111");
 
             }
             catch (Exception e)
@@ -60,7 +63,7 @@ public class Main {
                 return;
             }
             else
-                throw new Exception("не верный диапазон значений");
+                throw new Exception("не верный диапазон значений 222222");
 
         }
         catch (Exception e)
