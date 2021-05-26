@@ -36,7 +36,7 @@ public class Main {
                     return;
                 }
                 else
-                    throw new Exception("не верный диапазон значений 111111");
+                    throw new Exception("не верный диапазон значений ");
 
             }
             catch (Exception e)
@@ -63,7 +63,7 @@ public class Main {
                 return;
             }
             else
-                throw new Exception("не верный диапазон значений 222222");
+                throw new Exception("не верный диапазон значений ");
 
         }
         catch (Exception e)

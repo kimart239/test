@@ -40,7 +40,7 @@ public class result {
             if (r > 0) System.out.println("Результат=" + rom10[r / 10] + rom1[r%10]);//римские >0
             if (r < 0) {
                 r = -r;
-                System.out.println("Результат=-" + rom10[r / 10] + rom1[r% 10]);
+                System.out.println("Результат=-" + rom10[r / 10] + rom1[r% 10]);// % для получения остатка от деления
             }
             if (r == 0) System.out.println("Результат=0");
         }
